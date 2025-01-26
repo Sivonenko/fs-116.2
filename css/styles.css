@@ -714,14 +714,33 @@ body {
 }
 /* promo */
 .promo {
-  background-color: #02897a;
+ 
 }
+.promo-container{
+   background-color: #02897a;
+  width: 968px;
+  min-height: 345px;
+  border-radius: 32px;
+  display: flex;
+  padding-left: 51px;
+  padding-right: 46px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    justify-content: space-between;
 
+}
+.promo-wrap{
+  width: 510px;
+  padding-top: 49px;
+
+
+}
 .promo-text {
   font-weight: 600;
   font-size: 32px;
   line-height: 1.514;
   color: #fff;
+  margin-bottom: 46px;
 }
 
 .promo-btn {
@@ -731,4 +750,6 @@ body {
   font-weight: 600;
   font-size: 20px;
   color: #02897a;
+  width: 150px;
+    height: 50px;
 }
